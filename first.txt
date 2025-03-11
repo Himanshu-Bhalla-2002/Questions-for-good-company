@@ -1,0 +1,81 @@
+####### Important point 1
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Class 1 Summary (Array and Math)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Like if something comes in which we have to give a function call then what we will have to do is like use &
+
+As in function if we use (vector<int>abc);
+
+It is O(N) in itself 
+
+So we should use (vector<int>&abc).
+
+Question 1
+
+https://www.interviewbit.com/problems/maximum-absolute-difference/
+
+
+Question 2
+Trapping Rainwater
+
+Question 3
+
+Gap method (Given an array sort it and find maximum difference b/w A[i] and A[i+1])
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Class 2 Summary (Array Part II)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Question 1
+
+Given a matrix sorted like both rows and columns find an element x.
+
+
+Question 2
+Majority element >= (n/2)
+
+Question 3
+Majority element >= (n/3)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Class 3 Summary (Two Pointers)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+First concept of sieve of eratothenes.
+
+In sieve of eratothenes what we have to do is like 
+
+Case 1 if we want to check whether number is prime or not
+
+In that case like take each number let's say 2 and then mark all its multiple as non prime(like0)
+Then 3 and mark its multiple as non prime
+Continue like this only.
+
+
+Now other thing is that if we want factors from [i,j] inside sieve.
+
+Then what we can do is like we can first initialise sieve with 1 and now what we can do is like
+whenever for example 2 comes I will increment all its multiples by 1.
+Now factors from [i,j] will be like A[j] - A[i]
+
+Here A[i] will be prefix sum.
+Here A[j] will also be prefix sum.
+
+Question 1
+
+Given a string do permutation of it and like find rank of a string
+
+Like a,b,c 
+abc -1
+acb -2
+bac -3
+bca -4
+cab -5
+cba -6
+Here rank of bca is 4.
+
