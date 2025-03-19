@@ -79,3 +79,112 @@ cab -5
 cba -6
 Here rank of bca is 4.
 
+Question 2
+
+Two pointer question 
+
+Given a sorted array (1,3,5,8,15,20)
+Here we have to find values whose sum is equal to a number. (A[i] + A[j] = k)
+
+
+Question 3
+A[i] - A[j] = k
+
+In the above question only if instead of sum difference is equal to k.
+
+
+Clarifying questions that k is a positive number or not?
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Class 4 Summary (Math for HFT firms and Premium Financial Institutes)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 1
+So the thing is that 
+Question is if we make a circle we handover the knife to 1 st person and then he kills second and then handover the knife to the 3 rd person 
+So the question is who is the last person who is alive
+
+
+Question 2
+Question is standing at position 0 
+The thing is that I can either move k steps forward or k steps backward
+
+Given some coordinate 
+Move from position 0 to position x in minimum number of moves
+Here like 1 step forward and 1 step backward
+2 step forward or 2 step backward
+On 3 rd move I can either move 3 step forward or 3 step backward
+
+
+Question 3
+Third question is of randomisation like how many steps we have to do to get two consecutive heads
+Learn about getting heads and all
+Understand about random variable and expectations always come after random variable
+One way is to build a series like start from (1/2*1/2) or (1/2+1/2) like this
+Confirm with GPT
+
+Question 4
+Let’s say we are giving an interview 
+In first place we are giving interview then if one guy is selected 
+Then if kth guy will be selected is 1/(k+1)
+So the series will become Harmonic progression and it is divergent series
+So the answer will be doesn't exist.
+Check in which it will exist and in which it will not exist
+
+Question 5
+Expected no. Of trials you have to take to get n heads
+
+Question 6
+Count inversions i <j and A[i] > A[j]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Class 5 Summary (Bit Manipulation)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 1
+
+arr = [1,5,8......]
+
+Every element in A occurs twice except one element. Find that element.
+
+Here make two equation sum of numbers from 1 to n and second sum of squares of numbers and solve for two variables.
+
+
+Question 2
+
+arr = [1,5,8......]
+
+Every element in A occurs thrice except one element which occurs once. Find that element.
+
+
+Least significant bit is the bit like when we do A&1 and the bit which we do 1 is the least significant bit
+Here the time complexity will be n log(N) be sure and ask the difference between ChatGPT of n and N
+
+Quick sort works on average time complexity of n log(n) and what radix sort does is it does/ work on bits so check that 
+Here it is n log(N)
+
+Question 3
+
+We have n elements and every single element between 1 to n appears in the array except one element which exist twice 
+and one element is missing.
+
+Approach 1
+Ek approach thi na jismein negative karte jao ek ek karke wo wali
+
+Approach 2
+
+Given an array A tell there exist two elements and Xor of which is k
+A[i]^A[j]=k
+
+Question 4
+Given an array 
+
+Part a)
+min(A^B)
+
+Part b)
+max(A^B)
+
+
+
